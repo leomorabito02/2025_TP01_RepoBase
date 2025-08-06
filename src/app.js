@@ -9,6 +9,7 @@ function main() {
     saludar();
     const numero = 10
     sumar(numero);
+    console.log("Fin");
 }
 
 function sumar(n) {
