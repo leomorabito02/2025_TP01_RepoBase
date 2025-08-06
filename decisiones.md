@@ -27,3 +27,7 @@
 * entro a github y apruebo el pr para completar el merge
 * vuelvo el vscode a la rama dev y realizo git pull origin dev para traer los cambios realizados en mi rama de desarrollo
 
+5.
+* para crear un tag uso git tag [version]
+* elegí la convención de 1.x.x cambios en la arquitectura, x.1.x cambios en las funcionalidaddes, x.x.1, arreglos de errores
+* me parece la más directa y la que está más aceptada entre los desarrolladores
