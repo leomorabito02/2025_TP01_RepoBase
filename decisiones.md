@@ -19,3 +19,8 @@
 * git tag 1.0 para un mejor control de version
 * me voy a dev
 * git merge hotfix para que el fix esté también en la rama de desarollo
+
+4. voy a crear una feature para mi programa de la rama dev y voy a realizar un pullrequest
+* git checkout dev
+* git branch feature/adios
+* programo y cuando termino hago un git push para crear un pr y que se mergee en dev
