@@ -10,6 +10,7 @@ function main() {
     const numero = 10
     sumar(numero);
     console.log("Fin");
+    despedir();
 }
 
 function sumar(n) {
@@ -18,4 +19,7 @@ function sumar(n) {
         resultado += i;
     }
     console.log(`La suma de los números del 0 al ${n} es: ${resultado}`);
+}
+function despedir() {
+    console.log("Adiós mundo");
 }
