@@ -23,4 +23,7 @@
 4. voy a crear una feature para mi programa de la rama dev y voy a realizar un pullrequest
 * git checkout dev
 * git branch feature/adios
-* programo y cuando termino hago un git push para crear un pr y que se mergee en dev
+* programo y cuando termino hago un git push origin feature/adios para crear un pr y que se mergee en dev
+* entro a github y apruebo el pr para completar el merge
+* vuelvo el vscode a la rama dev y realizo git pull origin dev para traer los cambios realizados en mi rama de desarrollo
+
