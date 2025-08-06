@@ -12,4 +12,10 @@
 * hago un git push origin dev para subirlo al repo 
 
 3. 
-* supongamos que hay un error en info.txt y le tengo que agregar una segunda linea al txt
+* supongamos que hay un error en info.txt y le tengo que agregar una segunda linea al txt. uso la estrategia de gitflow.
+* creo la rama hotfix y añado cambios (fix)
+* luego voy a la rama main y realizo:
+* git merge hotfix
+* git tag 1.0 para un mejor control de version
+* me voy a dev
+* git merge hotfix para que el fix esté también en la rama de desarollo
